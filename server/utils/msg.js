@@ -9,7 +9,7 @@ var generateMessage = (from, text) => {
 var generateLocationMessage = (from, laditude, longitude) => {
     return {
         from,
-        url: `https://ww.google.com/maps?q=${laditude},${longitude}`,
+        url: `https://www.google.com/maps?q=${laditude},${longitude}`,
         createdAt: new Date().getTime()
     }
 };
